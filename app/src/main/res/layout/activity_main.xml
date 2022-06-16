@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以自訂類別格式 輸入Firestore_整批" />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以自訂類別格式 輸入Firestore_單筆" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以自訂類別格式 讀取Firestore_整個collection" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以自訂類別格式 讀取Firestore_單筆collection" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="以自訂類別格式 過濾Firestore" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="id" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo storage功能" />
+</LinearLayout>
