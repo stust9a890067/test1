@@ -31,6 +31,7 @@ public class A extends AppCompatActivity {
 
         storageRef = FirebaseStorage.getInstance().getReference();
 
+        setTitle("耶,蘋果");
         binding.btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
